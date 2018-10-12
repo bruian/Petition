@@ -15,6 +15,7 @@
   12. End Box (Popup When Scroll Down)
 */
 
+
 (function ($) {
 	'use strict';
 
@@ -133,6 +134,7 @@
 	
 		/* End Box (Popup When Scroll Down) */
 		$("#scroll-down-popup").endpage_box({
+    //$("#endpage-box").endpage_box({
 			animation: "flyInLeft",
 			from: "70%",
 			to: "100%"

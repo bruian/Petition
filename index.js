@@ -10,6 +10,7 @@ app.use(helmet())
 app.use(compression({ threshold: 0 }))
 app.use(favicon('./static/images/favicon/favicon.ico'))
 app.use(express.static('static'))
+app.use(express.static('dist'))
 
 app.get('/', (req, res) => {
   res.sendFile('./static/index.html')
