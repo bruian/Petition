@@ -15,7 +15,6 @@
   12. End Box (Popup When Scroll Down)
 */
 
-
 (function ($) {
 	'use strict';
 

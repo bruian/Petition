@@ -25,7 +25,8 @@
         container = $(document),
         status = "off",
         new_from = "",
-        new_to = ""
+        new_to = "",
+        docHeight = 0
     
     if (el.length < 1) {
       el = $("<div id='endpage-box' class='endpage-box'>" + settings.content + "</div>")
